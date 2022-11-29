@@ -13,7 +13,7 @@ const outputDefaults = {
 
 export default defineConfig({
   //root: "demo",
-  base: "./", // generate relative paths in html
+  base: "./", // generate relative paths in html. useful for github-pages
   plugins: [
     //solidPlugin(),
     //nodePolyfills(),
@@ -23,6 +23,7 @@ export default defineConfig({
     //port: 3000,
   },
   build: {
+    outDir: "docs", // default: dist. docs is useful for github-pages
     target: 'esnext',
     //polyfillDynamicImport: false,
     //sourcemap: true,

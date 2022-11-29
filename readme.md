@@ -1,9 +1,9 @@
 # codemirror-vite-demo
 
-Demo for `codemirror` and `rollup`
+Demo for `codemirror` and `vite`
 
 - https://codemirror.net/examples/bundle/
-- https://www.rollupjs.org/guide/en/
+- https://vitejs.dev/config/
 
 ## commands
 
